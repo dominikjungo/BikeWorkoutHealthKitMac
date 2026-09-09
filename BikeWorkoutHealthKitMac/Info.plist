@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSHealthShareUsageDescription</key>
+    <string>This app needs access to your health data to read and display workout information.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>This app needs permission to save bike workout data to your Health app, including heart rate, cadence, and resistance metrics.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>This app needs access to your local network to communicate with API servers.</string>
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_http._tcp</string>
+        <string>_https._tcp</string>
+    </array>
+</dict>
+</plist>

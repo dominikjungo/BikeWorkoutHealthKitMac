@@ -1,0 +1,31 @@
+# Xcode
+.DS_Store
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace/xcuserdata/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# SPM
+.build/
+*.xcframework
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
